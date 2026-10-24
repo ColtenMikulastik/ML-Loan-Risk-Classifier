@@ -1,0 +1,20 @@
+[project]
+name = "ML-Loan-Risk-Classifier"
+version = "0.1.0"
+description = "This project is part of a final paper for CSCE 4201 Introduction to AI, which uses logistic regression and decision trees to determine loan risk from an individual's background."
+readme = "README.md"
+authors = [
+    { name = "Colten Mikulastik", email = "mikulastikc@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+intro-to-ai-project = "intro_to_ai_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package=false

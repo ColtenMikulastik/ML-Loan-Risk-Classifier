@@ -1,1 +1,2 @@
 # ML-Loan-Risk-Classifier
+This project is part of a final paper for CSCE 4201 Introduction to AI, which uses logistic regression and decision trees to determine loan risk from an individual's background.

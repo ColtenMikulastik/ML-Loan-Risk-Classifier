@@ -7,7 +7,9 @@ authors = [
     { name = "Colten Mikulastik", email = "mikulastikc@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=3.1.0",
+]
 
 [project.scripts]
 intro-to-ai-project = "intro_to_ai_project:main"
